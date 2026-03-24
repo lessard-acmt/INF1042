@@ -1,5 +1,5 @@
-#Demande votre nom
-#Dis bonjour a le nom que tu a mis
+# Demande le nom à l'utilisateur
+nom = input("Quel est votre nom ? ")
 
-nom = input("Entrez votre nom: ")
-print("Bonjour " + nom + "!")
+# Affiche le message de bienvenue
+print(f"Bonjour {nom}!")
